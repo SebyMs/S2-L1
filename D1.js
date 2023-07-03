@@ -22,9 +22,8 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name = "Sebastiano Monello";
+let name = "Sebastiano Monello";
 console.log(name);
-const nome = "Sebastiano Monello";
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -37,7 +36,7 @@ console.log(12 + 20);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var numero = 12;
+let numero = 12;
 console.log(numero);
 
 /* ESERCIZIO 5
@@ -46,15 +45,17 @@ console.log(numero);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name = "Monello";
+name = "Monello";
 console.log(name);
-// var nome='Monello'impossibile cambiare variabile all attributo const perché genera errore
+const nome = "Sebastiano Monello";
+console.log(nome);
+// nome='Monello'impossibile cambiare variabile all attributo const perché essendo un datatype constante generera errore
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var x = 12;
+let x = 12;
 console.log(4 - x);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -63,7 +64,7 @@ console.log(4 - x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name1 = "jhon";
-var name2 = "Jhon";
+let name1 = "jhon";
+let name2 = "Jhon";
 console.log(name1 === name2);
 console.log(name1 === name2.toLowerCase());

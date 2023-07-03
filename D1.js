@@ -54,7 +54,7 @@ console.log(name);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 12;
+var x = 12;
 console.log(4 - x);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -63,7 +63,7 @@ console.log(4 - x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name1 = "jhon";
-let name2 = "Jhon";
+var name1 = "jhon";
+var name2 = "Jhon";
 console.log(name1 === name2);
 console.log(name1 === name2.toLowerCase());
